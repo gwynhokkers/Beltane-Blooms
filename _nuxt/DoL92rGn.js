@@ -1,1 +1,0 @@
-import{_ as c}from"./DG2ngc5L.js";import{d as o,c as r,e as a,h as n}from"./A3aJX4OV.js";const _=o({__name:"Hero",props:{image:String},setup(e){return(s,m)=>{const t=c;return r(),a("section",null,[n(t,{src:e.image,"img-attrs":{class:"object-cover w-full h-full max-h-96"}},null,8,["src"])])}}});export{_ as default};

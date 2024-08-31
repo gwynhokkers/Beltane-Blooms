@@ -1,0 +1,1 @@
+import{l as t,c as n,e as o,ai as s}from"./DTOpbP-P.js";const c={},r={class:"container"};function a(e,l){return n(),o("div",r,[s(e.$slots,"default")])}const i=t(c,[["render",a]]);export{i as default};
