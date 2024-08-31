@@ -7,17 +7,19 @@ const links = [
 	{
 		label: 'About',
 		to: '/about'
-	}, {
-		label: 'Shop',
-		to: '/shop'
-	}, {
-		label: 'Services',
-		to: '/services'
-	},
-	{
-		label: 'Contact',
-		to: '/contact'
 	}
+	// {
+	// 	label: 'Shop',
+	// 	to: '/shop'
+	// },
+	// {
+	// 	label: 'Services',
+	// 	to: '/services'
+	// },
+	// {
+	// 	label: 'Contact',
+	// 	to: '/contact'
+	// }
 ]
 </script>
 
