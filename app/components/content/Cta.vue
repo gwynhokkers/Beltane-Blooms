@@ -11,7 +11,7 @@
 			]"
 		>
 			<h2 class="text-2xl mb-10">
-				Sustainably grown and naturally dried flowers
+				{{ title }}
 			</h2>
 			<div
 				class="prose mb-8"
@@ -23,23 +23,18 @@
 					}
 				]"
 			>
-				<p>
-					I'm Ruth and this is my little corner of the web for all things flowery. I sow, grow and responsibly forage flowers and foliage for dried flower arranging.
-				</p>
-				<p>
-					I live just outside of Cardiff in South Wales. Click below to find out more about me, my journey and my approach to growing flowers.
-				</p>
+				<slot name="content" />
 			</div>
-			<UButton
-				:label="'About'"
-				to="/about"
-			/>
 		</div>
 	</section>
 </template>
 
 <script lang="ts" setup>
 defineProps({
+	title: {
+		type: String,
+		default: ''
+	},
 	textAlign: {
 		type: String,
 		default: 'center'
