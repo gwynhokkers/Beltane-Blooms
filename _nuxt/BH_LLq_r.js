@@ -1,0 +1,1 @@
+import{l as s,c as o,e as t,ai as c,f as a}from"./A3aJX4OV.js";const n={},r={class:"bg-red-600"},l=a("p",null,"hello",-1);function _(e,d){return o(),t("div",r,[l,c(e.$slots,"default")])}const i=s(n,[["render",_]]);export{i as default};
